@@ -56,10 +56,35 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="d-flex">
             <img class="border p-2 rounded-circle bg-light text-secondary-emphasis" src="./assets/bell.svg" alt="campanello notifica" />
+            <div class="dropdown">
+              <a
+                href="#"
+                class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle"
+                id="dropdownUser1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img class="rounded-circle" style="width: 50px" src="./assets/avatar-1.jpg" alt="avatar1" />
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end text-small shadow" aria-labelledby="dropdownUser1" style="min-width: 250px">
+                <li class="dropdown-header d-flex align-items-center p-3">
+                  <img src="./assets/avatar-1.jpg" alt="User Image" class="rounded-circle" style="width: 40px; height: 40px" />
+                  <div class="ms-2">
+                    <strong>Annette Black</strong><br />
+                    <small class="text-muted">annette@geeksui.com</small>
+                  </div>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Subscription</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+              </ul>
+            </div>
 
-            <img class="rounded-circle" style="width: 50px" src="./assets/avatar-1.jpg" alt="avatar1" />
             <button
               class="navbar-toggler"
               type="button"
