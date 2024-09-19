@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 400;
+}
+h1 {
+  font-weight: 700;
+}
+.hero {
+  background-color: #7550fe;
+}
+.superSection,
+footer {
+  background-color: #edeaf1;
+}
+.footer-container {
+  padding-top: 10rem;
+}
+.card {
+  width: 16rem;
+}
